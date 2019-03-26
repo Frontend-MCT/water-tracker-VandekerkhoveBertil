@@ -1,0 +1,15 @@
+.c-app{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: $container-width;
+    min-width: $container-width;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+    padding: 2rem; // 2rem = 32px -> font-size is 16px!
+    color: map-get($neutral-colors, light);
+    background: $alpha-color-dark;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+    overflow: hidden;
+}
